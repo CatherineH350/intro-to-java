@@ -76,3 +76,11 @@ double average;
 average = (double)total/n  //total cast to double to ensure real division is used`
 
 *note:* casting a floating-point number to an integer simply trunactes the number (rounds down)
+
+## Final Variables
+A *final variable* or *user-defined constant*, identified by the keyword 'final', is a quantity whose value will not change.
+
+`final double TAX_RATE = 0.08;`
+
+- Constant identifiers are, by convention, capitalized
+- 'final' variables can be declared without initializing immediately
